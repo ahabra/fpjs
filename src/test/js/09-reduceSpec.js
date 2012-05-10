@@ -24,11 +24,6 @@ describe('reduce/fold left', function() {
 		expect(max).toBe(45);
   });
 	
-	it('find max in an array', function() {
-		var max= [1, -99, 45, 3].reduce(Math.max, Number.MIN_VALUE);
-		expect(max).toBe(45);
-  });
-	
 	it('calc sum of array', function() {
 		var e09= fpjs.examples.E09();
 		var array= [1,2,3,4];
