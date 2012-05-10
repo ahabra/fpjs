@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Jasmine Test Runner</title>
+  <link rel="stylesheet" type="text/css" href="jasmine/jasmine.css">
+  <script type="text/javascript" src="jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="jasmine/jasmine-html.js"></script>
+
+	<!-- 3rd party libs -->
+  <script type="text/javascript" src="../main/js/lib/underscore.js"></script>
+  <script type="text/javascript" src="../main/js/lib/underscore.string.js"></script>
+  <script type="text/javascript" src="../main/js/lib/namespace.js"></script>
+
+  <!-- include source files here... -->
+  <script type="text/javascript" src="../main/js/03-functions.js"></script>
+  <script type="text/javascript" src="../main/js/04-hiOrderFunctions.js"></script>
+  <script type="text/javascript" src="../main/js/05-lambda.js"></script>
+  <script type="text/javascript" src="../main/js/06-closure.js"></script>
+  <script type="text/javascript" src="../main/js/07-map.js"></script>
+  <script type="text/javascript" src="../main/js/08-filter.js"></script>
+  <script type="text/javascript" src="../main/js/09-reduce.js"></script>
+  <script type="text/javascript" src="../main/js/10-reduceRight.js"></script>
+  <script type="text/javascript" src="../main/js/11-forEach.js"></script>
+  <script type="text/javascript" src="../main/js/12-curry.js"></script>
+  
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="js/03-functionsSpec.js"></script>
+  <script type="text/javascript" src="js/04-hiOrderFunctionsSpec.js"></script>
+  <script type="text/javascript" src="js/05-lambdaSpec.js"></script>
+  <script type="text/javascript" src="js/06-closureSpec.js"></script>
+  <script type="text/javascript" src="js/07-mapSpec.js"></script>
+  <script type="text/javascript" src="js/08-filterSpec.js"></script>
+  <script type="text/javascript" src="js/09-reduceSpec.js"></script>
+  <script type="text/javascript" src="js/10-reduceRightSpec.js"></script>
+  <script type="text/javascript" src="js/11-forEachSpec.js"></script>
+  <script type="text/javascript" src="js/12-currySpec.js"></script>
+
+
+</head>
+<body>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+  jasmine.getEnv().execute();
+</script>
+
+</body>
+</html>
